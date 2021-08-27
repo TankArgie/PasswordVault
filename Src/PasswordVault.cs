@@ -119,7 +119,7 @@ namespace Managers
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Note: ");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("You have to restart your device to save the password.");
+            Console.WriteLine("You have to restart this application to save the password.");
 
             while (true)
             {
@@ -161,19 +161,19 @@ namespace Managers
                     if (base._accounts == null)
                     {
                         InvalidInputMessage("Please load the accounts first.");
-                        return false;
+                        break;
                     }
                     if (args.Length != 3)
                     {
                         InvalidInputMessage();
-                        return false;
+                        break;
                     }
 
                     if (args[2].ToLower() == "all") args[2] = "0";
                     if (!int.TryParse(args[2], out int pos))
                     {
                         InvalidInputMessage();
-                        return false;
+                        break;
                     }
 
                     Remove(pos);
@@ -210,7 +210,7 @@ namespace Managers
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Note: ");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("You have to restart your device to save the password.");
+            Console.WriteLine("You have to restart this application to save the password.");
             
             while (true)
             {

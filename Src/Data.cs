@@ -40,7 +40,7 @@ namespace Managers
         }
         protected void RemoveAllData()
         {
-            foreach (string file in Directory.GetFiles("./Src/Data"))
+            foreach (string file in Directory.GetFiles("./Src/Data").Where(f => f.EndsWith(".txt")))
                 File.Delete(file);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("All data successfully removed!\n");
@@ -50,7 +50,7 @@ namespace Managers
         {
             _accounts = new List<Account>();
             int count = 0;
-            foreach (string file in Directory.GetFiles("./Src/Data"))
+            foreach (string file in Directory.GetFiles("./Src/Data").Where(f => f.EndsWith(".txt")))
             {
                 count++;
                 string[] contents = File.ReadAllText(file).Split("\n");

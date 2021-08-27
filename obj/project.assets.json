@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TankArgie\\Desktop\\Projects\\Languages\\CSharp\\PasswordVault\\PasswordVault.csproj",
+      "projectUniqueName": "C:\\Users\\TankArgie\\Documents\\GitHub\\PasswordVault\\PasswordVault.csproj",
       "projectName": "PasswordVault",
-      "projectPath": "C:\\Users\\TankArgie\\Desktop\\Projects\\Languages\\CSharp\\PasswordVault\\PasswordVault.csproj",
+      "projectPath": "C:\\Users\\TankArgie\\Documents\\GitHub\\PasswordVault\\PasswordVault.csproj",
       "packagesPath": "C:\\Users\\TankArgie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TankArgie\\Desktop\\Projects\\Languages\\CSharp\\PasswordVault\\obj\\",
+      "outputPath": "C:\\Users\\TankArgie\\Documents\\GitHub\\PasswordVault\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TankArgie\\AppData\\Roaming\\NuGet\\NuGet.Config",
